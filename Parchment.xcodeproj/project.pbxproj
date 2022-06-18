@@ -60,7 +60,7 @@
 		C333EEDA285D934B00AF1A41 /* PagingViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EEA6285D934B00AF1A41 /* PagingViewControllerDataSource.swift */; };
 		C333EEDB285D934B00AF1A41 /* PagingMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EEA7285D934B00AF1A41 /* PagingMenuDelegate.swift */; };
 		C333EEDC285D934B00AF1A41 /* PagingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EEA8285D934B00AF1A41 /* PagingLayout.swift */; };
-		C38D18B0285D9EBB00135C10 /* YDS in Frameworks */ = {isa = PBXBuildFile; productRef = C38D18AF285D9EBB00135C10 /* YDS */; };
+		C3DD6B8E285DB7F800269467 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C3DD6B8D285DB7F800269467 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -126,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C38D18B0285D9EBB00135C10 /* YDS in Frameworks */,
+				C3DD6B8E285DB7F800269467 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +287,7 @@
 			);
 			name = Parchment;
 			packageProductDependencies = (
-				C38D18AF285D9EBB00135C10 /* YDS */,
+				C3DD6B8D285DB7F800269467 /* SnapKit */,
 			);
 			productName = Parchment;
 			productReference = 3EA04A4B1C53BFE40054E5E0 /* Parchment.framework */;
@@ -320,7 +320,7 @@
 			);
 			mainGroup = 3EA04A411C53BFE40054E5E0;
 			packageReferences = (
-				C38D18AE285D9EBB00135C10 /* XCRemoteSwiftPackageReference "YDS-iOS" */,
+				C3DD6B8C285DB7F800269467 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 3EA04A4C1C53BFE40054E5E0 /* Products */;
 			projectDirPath = "";
@@ -606,21 +606,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C38D18AE285D9EBB00135C10 /* XCRemoteSwiftPackageReference "YDS-iOS" */ = {
+		C3DD6B8C285DB7F800269467 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/yourssu/YDS-iOS";
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				minimumVersion = 5.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C38D18AF285D9EBB00135C10 /* YDS */ = {
+		C3DD6B8D285DB7F800269467 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C38D18AE285D9EBB00135C10 /* XCRemoteSwiftPackageReference "YDS-iOS" */;
-			productName = YDS;
+			package = C3DD6B8C285DB7F800269467 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
