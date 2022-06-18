@@ -1,4 +1,5 @@
 import UIKit
+import YDS
 
 public struct PagingOptions {
     /// The size for each of the menu items. _Default:

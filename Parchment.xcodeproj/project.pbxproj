@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -127,6 +127,7 @@
 		C333EEDA285D934B00AF1A41 /* PagingViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EEA6285D934B00AF1A41 /* PagingViewControllerDataSource.swift */; };
 		C333EEDB285D934B00AF1A41 /* PagingMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EEA7285D934B00AF1A41 /* PagingMenuDelegate.swift */; };
 		C333EEDC285D934B00AF1A41 /* PagingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EEA8285D934B00AF1A41 /* PagingLayout.swift */; };
+		C38D18B0285D9EBB00135C10 /* YDS in Frameworks */ = {isa = PBXBuildFile; productRef = C38D18AF285D9EBB00135C10 /* YDS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -333,6 +334,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38D18B0285D9EBB00135C10 /* YDS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -780,6 +782,9 @@
 			dependencies = (
 			);
 			name = Parchment;
+			packageProductDependencies = (
+				C38D18AF285D9EBB00135C10 /* YDS */,
+			);
 			productName = Parchment;
 			productReference = 3EA04A4B1C53BFE40054E5E0 /* Parchment.framework */;
 			productType = "com.apple.product-type.framework";
@@ -887,6 +892,9 @@
 				Base,
 			);
 			mainGroup = 3EA04A411C53BFE40054E5E0;
+			packageReferences = (
+				C38D18AE285D9EBB00135C10 /* XCRemoteSwiftPackageReference "YDS-iOS" */,
+			);
 			productRefGroup = 3EA04A4C1C53BFE40054E5E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1152,7 +1160,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ParchmentTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinrechsteiner.ParchmentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1166,7 +1178,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ParchmentTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinrechsteiner.ParchmentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1279,7 +1295,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1303,7 +1320,11 @@
 				INFOPLIST_FILE = Parchment/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					SwiftUI,
@@ -1331,7 +1352,11 @@
 				INFOPLIST_FILE = Parchment/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					SwiftUI,
@@ -1352,7 +1377,10 @@
 				DEVELOPMENT_TEAM = G4TGN24VA2;
 				INFOPLIST_FILE = Example/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinrechsteiner.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1368,7 +1396,10 @@
 				DEVELOPMENT_TEAM = G4TGN24VA2;
 				INFOPLIST_FILE = Example/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinrechsteiner.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1389,7 +1420,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ParchmentUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinrechsteiner.ParchmentUITests;
@@ -1415,7 +1450,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ParchmentUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinrechsteiner.ParchmentUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1443,7 +1482,10 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ExampleSwiftUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinrechsteiner.ExampleSwiftUI;
@@ -1472,7 +1514,10 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ExampleSwiftUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinrechsteiner.ExampleSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1539,6 +1584,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C38D18AE285D9EBB00135C10 /* XCRemoteSwiftPackageReference "YDS-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yourssu/YDS-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C38D18AF285D9EBB00135C10 /* YDS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C38D18AE285D9EBB00135C10 /* XCRemoteSwiftPackageReference "YDS-iOS" */;
+			productName = YDS;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3EA04A421C53BFE40054E5E0 /* Project object */;
 }

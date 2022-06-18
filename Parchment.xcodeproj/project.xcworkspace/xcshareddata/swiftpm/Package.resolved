@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "panmodal",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/slackhq/PanModal.git",
+      "state" : {
+        "revision" : "b012aecb6b67a8e46369227f893c12544846613f",
+        "version" : "1.2.7"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit",
+      "state" : {
+        "revision" : "f222cbdf325885926566172f6f5f06af95473158",
+        "version" : "5.6.0"
+      }
+    },
+    {
+      "identity" : "yds-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yourssu/YDS-iOS",
+      "state" : {
+        "revision" : "52724f50193a20db78701843bfcd57fe40ab2e44",
+        "version" : "2.6.1"
+      }
+    }
+  ],
+  "version" : 2
+}
