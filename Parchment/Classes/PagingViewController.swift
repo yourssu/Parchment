@@ -240,8 +240,18 @@ public class PagingViewController:
 
     // MARK: Initializers
     
-    public init(type: TabBarType, viewControllers: [UIViewController]) {
-        var options: PagingOptions = PagingOptions()
+    public init(type: TabBarType,
+                viewControllers: [UIViewController],
+                font: UIFont,
+                selectedFont: UIFont,
+                textColor: UIColor,
+                selectedTextColor: UIColor,
+                indicatorColor: UIColor) {
+        var options: PagingOptions = PagingOptions(font: font,
+                                                   selectedFont: selectedFont,
+                                                   textColor: textColor,
+                                                   selectedTextColor: selectedTextColor,
+                                                   indicatorColor: indicatorColor)
         
         switch type {
         case .scrollable:

@@ -1,5 +1,4 @@
 import UIKit
-import YDS
 
 public struct PagingOptions {
     /// The size for each of the menu items. _Default:
@@ -86,7 +85,11 @@ public struct PagingOptions {
         }
     }
 
-    public init() {
+    public init(font: UIFont = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.medium),
+                selectedFont: UIFont = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.medium),
+                textColor: UIColor = UIColor.black,
+                selectedTextColor: UIColor = UIColor(red: 3 / 255, green: 125 / 255, blue: 233 / 255, alpha: 1),
+                indicatorColor: UIColor = UIColor(red: 3 / 255, green: 125 / 255, blue: 233 / 255, alpha: 1)) {
         menuItemSize = .sizeToFit(minWidth: 150, height: 40)
         menuInteraction = .scrolling
         menuInsets = UIEdgeInsets.zero
@@ -103,15 +106,15 @@ public struct PagingOptions {
             insets: UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         )
         
-        font = YDSFont.button2
-        selectedFont = YDSFont.button2
+        self.font = font
+        self.selectedFont = selectedFont
 
-        textColor = YDSColor.bottomBarNormal
-        selectedTextColor = YDSColor.bottomBarSelected
+        self.textColor = textColor
+        self.selectedTextColor = selectedTextColor
         backgroundColor = .clear
         selectedBackgroundColor = .clear
         pagingContentBackgroundColor = .clear
         menuBackgroundColor = .systemBackground
-        indicatorColor = YDSColor.bottomBarSelected
+        self.indicatorColor = indicatorColor
     }
 }
