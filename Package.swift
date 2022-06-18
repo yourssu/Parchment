@@ -12,15 +12,17 @@ let package = Package(
         .library(name: "Parchment", targets: ["Parchment"]),
     ],
     
+    dependencies: [
+        .package(name: "SnapKit", url: "https://github.com/SnapKit/SnapKit", from: "5.6.0"),
+    ],
+    
     targets: [
         .target(
             name: "Parchment",
-            path: "Parchment",
-            linkerSettings: [
-                .unsafeFlags([
-                    "-weak_framework", "SwiftUI",
-                ]),
-            ]
-        ),
+            dependencies: [
+                .product(name: "SnapKit", package: "SnapKit"),
+            ],
+            path: "Parchment"
+        )
     ]
 )
