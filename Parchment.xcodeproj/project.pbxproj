@@ -8,27 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3E2AAD201CA81EA20044AAA5 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2AAD1F1CA81EA20044AAA5 /* ContentViewController.swift */; };
-		3E2AAD281CA831AB0044AAA5 /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2AAD271CA831AB0044AAA5 /* UIView+constraints.swift */; };
-		3E2AAD2C1CA869B50044AAA5 /* PagingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2AAD2B1CA869B50044AAA5 /* PagingItem.swift */; };
-		3E2AAD2E1CA86A320044AAA5 /* PagingViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2AAD2D1CA86A320044AAA5 /* PagingViewControllerDelegate.swift */; };
-		3E40909A1C88BCC900800E22 /* PagingDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4090961C88BCC900800E22 /* PagingDirection.swift */; };
-		3E40909C1C88BCC900800E22 /* PagingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4090981C88BCC900800E22 /* PagingOptions.swift */; };
-		3E40909D1C88BCC900800E22 /* PagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4090991C88BCC900800E22 /* PagingState.swift */; };
-		3E4090A21C88BD0A00800E22 /* PagingIndicatorMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4090A11C88BD0A00800E22 /* PagingIndicatorMetric.swift */; };
-		3E4090AE1C88BDD100800E22 /* PagingBorderLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4090A91C88BDD100800E22 /* PagingBorderLayoutAttributes.swift */; };
-		3E4090AF1C88BDD100800E22 /* PagingCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4090AA1C88BDD100800E22 /* PagingCollectionViewLayout.swift */; };
-		3E4090B11C88BDD100800E22 /* PagingIndicatorLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4090AC1C88BDD100800E22 /* PagingIndicatorLayoutAttributes.swift */; };
-		3E4189211C9573FA001E0284 /* PagingViewControllerInfiniteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4189201C9573FA001E0284 /* PagingViewControllerInfiniteDataSource.swift */; };
-		3E4283FC1C99CF9000032D95 /* PagingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4283FB1C99CF9000032D95 /* PagingItems.swift */; };
 		3E49C71E1C8F5ABD006269DD /* Parchment.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E49C71D1C8F5ABD006269DD /* Parchment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E49C7251C8F5C13006269DD /* PagingBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E49C71F1C8F5C13006269DD /* PagingBorderView.swift */; };
-		3E49C7261C8F5C13006269DD /* PagingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E49C7201C8F5C13006269DD /* PagingCell.swift */; };
-		3E49C7281C8F5C13006269DD /* PagingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E49C7221C8F5C13006269DD /* PagingIndicatorView.swift */; };
-		3E49C7291C8F5C13006269DD /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E49C7231C8F5C13006269DD /* PagingView.swift */; };
-		3E49C72A1C8F5C13006269DD /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E49C7241C8F5C13006269DD /* PagingViewController.swift */; };
-		3E49C72E1C8F5CCE006269DD /* PagingCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E49C72D1C8F5CCE006269DD /* PagingCellViewModel.swift */; };
 		3E504EC91C7465B000AE1CE3 /* Parchment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA04A4B1C53BFE40054E5E0 /* Parchment.framework */; };
-		3E562ACE1CE7CD8C007623B3 /* PagingTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E562ACD1CE7CD8C007623B3 /* PagingTitleCell.swift */; };
 		3E5E93E31CE7D899000762A1 /* PagingStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5E93E21CE7D899000762A1 /* PagingStateTests.swift */; };
 		3E5E93E91CE7E093000762A1 /* PagingDataStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5E93E81CE7E093000762A1 /* PagingDataStructureTests.swift */; };
 		3E9E8D141C70FDF900F265A4 /* Parchment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA04A4B1C53BFE40054E5E0 /* Parchment.framework */; };
@@ -39,24 +20,11 @@
 		3EA04A641C53BFF40054E5E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA04A631C53BFF40054E5E0 /* Assets.xcassets */; };
 		3EA04A671C53BFF40054E5E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EA04A651C53BFF40054E5E0 /* LaunchScreen.storyboard */; };
 		3EFEFBF71C80B8820023C949 /* PagingIndicatorLayoutAttributesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFEFBF61C80B8820023C949 /* PagingIndicatorLayoutAttributesTests.swift */; };
-		950ABE422437BD4D00CAD458 /* PagingNavigationOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950ABE412437BD4D00CAD458 /* PagingNavigationOrientation.swift */; };
 		950ABE452438975300CAD458 /* PageViewExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950ABE442438975300CAD458 /* PageViewExampleViewController.swift */; };
 		951E163720A21D3A0055E9D4 /* PagingViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954842601F4251F90072038C /* PagingViewControllerTests.swift */; };
-		952D802F1E37CC09003DCB18 /* PagingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D802E1E37CC09003DCB18 /* PagingTransition.swift */; };
 		953B8D352416C3DC0047BBA1 /* SelfSizingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B8D342416C3DC0047BBA1 /* SelfSizingViewController.swift */; };
-		954842591F42438E0072038C /* PagingInvalidationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954842581F42438E0072038C /* PagingInvalidationContext.swift */; };
-		9548425D1F42486B0072038C /* PagingDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9548425C1F42486B0072038C /* PagingDiff.swift */; };
 		954842631F4252070072038C /* PagingDiffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954842621F4252070072038C /* PagingDiffTests.swift */; };
 		954E7DEE1F48AE6E00342ECF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954E7DEB1F48AE1300342ECF /* Item.swift */; };
-		955444B11FC99E2C001EC26B /* PagingSizeCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955444B01FC99E2C001EC26B /* PagingSizeCache.swift */; };
-		955444B81FC9CCA6001EC26B /* PagingMenuItemSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955444B71FC9CCA6001EC26B /* PagingMenuItemSize.swift */; };
-		955444BA1FC9CCBF001EC26B /* PagingIndicatorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955444B91FC9CCBF001EC26B /* PagingIndicatorOptions.swift */; };
-		955444BC1FC9CCD9001EC26B /* PagingBorderOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955444BB1FC9CCD9001EC26B /* PagingBorderOptions.swift */; };
-		955444BE1FC9CCEC001EC26B /* PagingSelectedScrollPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955444BD1FC9CCEC001EC26B /* PagingSelectedScrollPosition.swift */; };
-		955444C01FC9CCFF001EC26B /* PagingMenuHorizontalAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955444BF1FC9CCFF001EC26B /* PagingMenuHorizontalAlignment.swift */; };
-		955444C21FC9CD19001EC26B /* PagingMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955444C11FC9CD19001EC26B /* PagingMenuTransition.swift */; };
-		955444C41FC9CD2C001EC26B /* PagingMenuInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955444C31FC9CD2C001EC26B /* PagingMenuInteraction.swift */; };
-		955453C42413C80F00923BC8 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955453C32413C80F00923BC8 /* PageViewController.swift */; };
 		955453C62413D76C00923BC8 /* ExamplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955453C52413D76C00923BC8 /* ExamplesViewController.swift */; };
 		955453C82413DB7900923BC8 /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955453C72413DB7900923BC8 /* UIView+constraints.swift */; };
 		955453CF2413DC6900923BC8 /* UIColor+interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955453CE2413DC6900923BC8 /* UIColor+interpolation.swift */; };
@@ -79,30 +47,14 @@
 		955453EF2415172800923BC8 /* MultipleCellsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AA9F1235B7742003A6408 /* MultipleCellsViewController.swift */; };
 		955453F32415181800923BC8 /* StoryboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955453F22415181500923BC8 /* StoryboardViewController.swift */; };
 		95591F21222C3A0400677B4B /* PagingControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95591F20222C3A0400677B4B /* PagingControllerTests.swift */; };
-		95591F23222C522800677B4B /* PagingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95591F22222C522800677B4B /* PagingController.swift */; };
 		955D02442434E56900416E71 /* PagingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955D02432434E56900416E71 /* PagingViewTests.swift */; };
 		9566F55F257982B500CCA8FC /* UIColorInterpolationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9566F55E257982B500CCA8FC /* UIColorInterpolationTests.swift */; };
 		9566F567257983B200CCA8FC /* Resources.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9566F566257983B200CCA8FC /* Resources.xcassets */; };
-		9568922B222C525C00AFF250 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568922A222C525C00AFF250 /* CollectionView.swift */; };
 		956EBE5E248BC426003ED4BA /* PagingCollectionViewLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956EBE5D248BC426003ED4BA /* PagingCollectionViewLayoutTests.swift */; };
 		9575BEB32461FEF9002403F6 /* CreateDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9575BEB22461FEF9002403F6 /* CreateDistance.swift */; };
 		9575BEB52462034B002403F6 /* PagingDistanceRightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9575BEB42462034B002403F6 /* PagingDistanceRightTests.swift */; };
 		9575BEB72463490B002403F6 /* PagingDistanceCenteredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9575BEB62463490B002403F6 /* PagingDistanceCenteredTests.swift */; };
-		957F14091E35583500E562F8 /* PagingCellLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957F14081E35583500E562F8 /* PagingCellLayoutAttributes.swift */; };
-		95868C2C2003DA87004B392B /* PagingContentInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95868C2B2003DA87004B392B /* PagingContentInteraction.swift */; };
-		95868C32200412D8004B392B /* InvalidationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95868C31200412D8004B392B /* InvalidationState.swift */; };
-		95868C34200412DE004B392B /* Tween.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95868C33200412DE004B392B /* Tween.swift */; };
-		9597F2951E3903F4003FD289 /* UIColor+interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9597F2941E3903F4003FD289 /* UIColor+interpolation.swift */; };
-		95A0AF001FF707910043B90A /* PagingIndexItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A0AEFF1FF707910043B90A /* PagingIndexItem.swift */; };
-		95A52A151FF81F70002A2ED4 /* PagingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A52A141FF81F70002A2ED4 /* PagingLayout.swift */; };
-		95A84B0520E586FA0031520F /* PagingStaticDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A84B0420E586FA0031520F /* PagingStaticDataSource.swift */; };
-		95A84B0D20ED46920031520F /* AnyPagingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A84B0C20ED46920031520F /* AnyPagingItem.swift */; };
 		95AD07EB2438F71A002F1D12 /* PagingDistanceLeftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AD07EA2438F71A002F1D12 /* PagingDistanceLeftTests.swift */; };
-		95B301171E59FCD500B95D02 /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B301161E59FCD500B95D02 /* UIEdgeInsets.swift */; };
-		95D2AE36242BB22F00AC3D46 /* PageViewDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D2AE35242BB22F00AC3D46 /* PageViewDirection.swift */; };
-		95D2AE38242BB24800AC3D46 /* PageViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D2AE37242BB24800AC3D46 /* PageViewState.swift */; };
-		95D2AE3A242BB25F00AC3D46 /* PageViewManagerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D2AE39242BB25F00AC3D46 /* PageViewManagerDataSource.swift */; };
-		95D2AE3C242BB28C00AC3D46 /* PageViewManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D2AE3B242BB28C00AC3D46 /* PageViewManagerDelegate.swift */; };
 		95D2AE44242BC1FA00AC3D46 /* ParchmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D2AE43242BC1FA00AC3D46 /* ParchmentUITests.swift */; };
 		95D2AE52242BCC9500AC3D46 /* ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D2AE51242BCC9500AC3D46 /* ExampleApp.swift */; };
 		95D2AE56242BCC9500AC3D46 /* DefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D2AE55242BCC9500AC3D46 /* DefaultView.swift */; };
@@ -111,31 +63,70 @@
 		95D2AE5E242BCC9900AC3D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D2AE5C242BCC9900AC3D46 /* LaunchScreen.storyboard */; };
 		95D2AE64242BED9B00AC3D46 /* Parchment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA04A4B1C53BFE40054E5E0 /* Parchment.framework */; };
 		95D2AE65242BED9B00AC3D46 /* Parchment.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA04A4B1C53BFE40054E5E0 /* Parchment.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		95D2AE6A242BF58500AC3D46 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D2AE69242BF58500AC3D46 /* PageView.swift */; };
-		95D2AE6F242EA3EF00AC3D46 /* PageViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D2AE6E242EA3EF00AC3D46 /* PageViewControllerDelegate.swift */; };
-		95D2AE71242EA40A00AC3D46 /* PageViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D2AE70242EA40A00AC3D46 /* PageViewControllerDataSource.swift */; };
 		95D78FDB2287138F00E6EE7C /* MockCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D78FDA2287138F00E6EE7C /* MockCollectionView.swift */; };
 		95D78FDD228713B800E6EE7C /* MockCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D78FDC228713B800E6EE7C /* MockCollectionViewLayout.swift */; };
 		95D78FDF228715C800E6EE7C /* MockPagingControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D78FDE228715C800E6EE7C /* MockPagingControllerDelegate.swift */; };
 		95D78FE1228715E100E6EE7C /* MockPagingControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D78FE0228715E100E6EE7C /* MockPagingControllerDataSource.swift */; };
 		95D78FE322871AB800E6EE7C /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D78FE222871AB800E6EE7C /* Mock.swift */; };
 		95D78FEC2288343F00E6EE7C /* MockPagingControllerSizeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D78FEB2288343F00E6EE7C /* MockPagingControllerSizeDelegate.swift */; };
-		95D790102299CE6100E6EE7C /* PagingViewControllerSizeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7900F2299CE6100E6EE7C /* PagingViewControllerSizeDelegate.swift */; };
-		95D790142299D28A00E6EE7C /* PagingMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D790132299D28A00E6EE7C /* PagingMenuView.swift */; };
-		95D790162299D56300E6EE7C /* PagingMenuDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D790152299D56300E6EE7C /* PagingMenuDataSource.swift */; };
-		95D790182299D57A00E6EE7C /* PagingMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D790172299D57A00E6EE7C /* PagingMenuDelegate.swift */; };
-		95E4BA701FF15E84008871A3 /* PagingViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E4BA6F1FF15E84008871A3 /* PagingViewControllerDataSource.swift */; };
-		95E4BA721FF15EFE008871A3 /* PagingFiniteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E4BA711FF15EFE008871A3 /* PagingFiniteDataSource.swift */; };
-		95F5660F2128707900F2A75E /* PagingMenuItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1BE1D211E409400E86B72 /* PagingMenuItemSource.swift */; };
 		95F83D6426237D2B003B728F /* SelectedIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F83D6326237D2B003B728F /* SelectedIndexView.swift */; };
 		95F83D6C26237DA4003B728F /* LifecycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F83D6B26237DA4003B728F /* LifecycleView.swift */; };
 		95F83D832623804F003B728F /* ChangeItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F83D822623804F003B728F /* ChangeItems.swift */; };
-		95FE3AF91FFEDBCE00E6F2AD /* PagingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FE3AF81FFEDBCE00E6F2AD /* PagingDistance.swift */; };
 		95FEEA4524215FCA009B5B64 /* PageViewManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FEEA4424215FCA009B5B64 /* PageViewManagerTests.swift */; };
 		95FEEA4D2423C44A009B5B64 /* MockPageViewManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FEEA4C2423C44A009B5B64 /* MockPageViewManagerDelegate.swift */; };
-		95FEEA4F2423F213009B5B64 /* PageViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FEEA4E2423F213009B5B64 /* PageViewManager.swift */; };
 		95FEEA512423F752009B5B64 /* MockPageViewManagerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FEEA502423F752009B5B64 /* MockPageViewManagerDataSource.swift */; };
-		E8CB720A23D70E1400A9B089 /* PagingMenuPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CB720923D70E1400A9B089 /* PagingMenuPosition.swift */; };
+		C333EEA9285D934B00AF1A41 /* PageViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE71285D934B00AF1A41 /* PageViewManager.swift */; };
+		C333EEAA285D934B00AF1A41 /* PagingTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE72285D934B00AF1A41 /* PagingTitleCell.swift */; };
+		C333EEAB285D934B00AF1A41 /* PagingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE73285D934B00AF1A41 /* PagingIndicatorView.swift */; };
+		C333EEAC285D934B00AF1A41 /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE74285D934B00AF1A41 /* PagingView.swift */; };
+		C333EEAD285D934B00AF1A41 /* PagingCellLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE75285D934B00AF1A41 /* PagingCellLayoutAttributes.swift */; };
+		C333EEAE285D934B00AF1A41 /* PagingIndicatorLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE76285D934B00AF1A41 /* PagingIndicatorLayoutAttributes.swift */; };
+		C333EEAF285D934B00AF1A41 /* PagingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE77285D934B00AF1A41 /* PagingController.swift */; };
+		C333EEB0285D934B00AF1A41 /* PagingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE78285D934B00AF1A41 /* PagingCell.swift */; };
+		C333EEB1285D934B00AF1A41 /* PagingStaticDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE79285D934B00AF1A41 /* PagingStaticDataSource.swift */; };
+		C333EEB2285D934B00AF1A41 /* PagingInvalidationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE7A285D934B00AF1A41 /* PagingInvalidationContext.swift */; };
+		C333EEB3285D934B00AF1A41 /* PagingSizeCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE7B285D934B00AF1A41 /* PagingSizeCache.swift */; };
+		C333EEB4285D934B00AF1A41 /* YDSTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE7C285D934B00AF1A41 /* YDSTabBarViewController.swift */; };
+		C333EEB5285D934B00AF1A41 /* PagingCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE7D285D934B00AF1A41 /* PagingCollectionViewLayout.swift */; };
+		C333EEB6285D934B00AF1A41 /* PagingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE7E285D934B00AF1A41 /* PagingOptions.swift */; };
+		C333EEB7285D934B00AF1A41 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE7F285D934B00AF1A41 /* PageViewController.swift */; };
+		C333EEB8285D934B00AF1A41 /* PagingFiniteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE80285D934B00AF1A41 /* PagingFiniteDataSource.swift */; };
+		C333EEB9285D934B00AF1A41 /* PagingMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE81285D934B00AF1A41 /* PagingMenuView.swift */; };
+		C333EEBA285D934B00AF1A41 /* PagingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE83285D934B00AF1A41 /* PagingDistance.swift */; };
+		C333EEBB285D934B00AF1A41 /* PagingIndicatorMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE84285D934B00AF1A41 /* PagingIndicatorMetric.swift */; };
+		C333EEBC285D934B00AF1A41 /* PagingDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE85285D934B00AF1A41 /* PagingDiff.swift */; };
+		C333EEBD285D934B00AF1A41 /* PagingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE86285D934B00AF1A41 /* PagingItems.swift */; };
+		C333EEBE285D934B00AF1A41 /* PagingCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE87285D934B00AF1A41 /* PagingCellViewModel.swift */; };
+		C333EEBF285D934B00AF1A41 /* AnyPagingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE88285D934B00AF1A41 /* AnyPagingItem.swift */; };
+		C333EEC0285D934B00AF1A41 /* PagingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE89285D934B00AF1A41 /* PagingTransition.swift */; };
+		C333EEC1285D934B00AF1A41 /* PagingIndexItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE8A285D934B00AF1A41 /* PagingIndexItem.swift */; };
+		C333EEC2285D934B00AF1A41 /* UIColor+interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE8C285D934B00AF1A41 /* UIColor+interpolation.swift */; };
+		C333EEC3285D934B00AF1A41 /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE8D285D934B00AF1A41 /* UIView+constraints.swift */; };
+		C333EEC4285D934B00AF1A41 /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE8E285D934B00AF1A41 /* UIEdgeInsets.swift */; };
+		C333EEC5285D934B00AF1A41 /* PageViewDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE90285D934B00AF1A41 /* PageViewDirection.swift */; };
+		C333EEC6285D934B00AF1A41 /* PagingMenuInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE91285D934B00AF1A41 /* PagingMenuInteraction.swift */; };
+		C333EEC7285D934B00AF1A41 /* PagingMenuItemSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE92285D934B00AF1A41 /* PagingMenuItemSize.swift */; };
+		C333EEC8285D934B00AF1A41 /* InvalidationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE93285D934B00AF1A41 /* InvalidationState.swift */; };
+		C333EEC9285D934B00AF1A41 /* PageViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE94285D934B00AF1A41 /* PageViewState.swift */; };
+		C333EECA285D934B00AF1A41 /* PagingIndicatorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE95285D934B00AF1A41 /* PagingIndicatorOptions.swift */; };
+		C333EECB285D934B00AF1A41 /* PagingDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE96285D934B00AF1A41 /* PagingDirection.swift */; };
+		C333EECC285D934B00AF1A41 /* PagingBorderOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE97285D934B00AF1A41 /* PagingBorderOptions.swift */; };
+		C333EECD285D934B00AF1A41 /* PagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE98285D934B00AF1A41 /* PagingState.swift */; };
+		C333EECE285D934B00AF1A41 /* PagingMenuItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE99285D934B00AF1A41 /* PagingMenuItemSource.swift */; };
+		C333EECF285D934B00AF1A41 /* PagingMenuDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE9B285D934B00AF1A41 /* PagingMenuDataSource.swift */; };
+		C333EED0285D934B00AF1A41 /* PagingViewControllerInfiniteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE9C285D934B00AF1A41 /* PagingViewControllerInfiniteDataSource.swift */; };
+		C333EED1285D934B00AF1A41 /* Tween.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE9D285D934B00AF1A41 /* Tween.swift */; };
+		C333EED2285D934B00AF1A41 /* PagingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE9E285D934B00AF1A41 /* PagingItem.swift */; };
+		C333EED3285D934B00AF1A41 /* PageViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EE9F285D934B00AF1A41 /* PageViewControllerDataSource.swift */; };
+		C333EED4285D934B00AF1A41 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EEA0285D934B00AF1A41 /* CollectionView.swift */; };
+		C333EED5285D934B00AF1A41 /* PageViewManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EEA1285D934B00AF1A41 /* PageViewManagerDelegate.swift */; };
+		C333EED6285D934B00AF1A41 /* PageViewManagerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EEA2285D934B00AF1A41 /* PageViewManagerDataSource.swift */; };
+		C333EED7285D934B00AF1A41 /* PagingViewControllerSizeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EEA3285D934B00AF1A41 /* PagingViewControllerSizeDelegate.swift */; };
+		C333EED8285D934B00AF1A41 /* PagingViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EEA4285D934B00AF1A41 /* PagingViewControllerDelegate.swift */; };
+		C333EED9285D934B00AF1A41 /* PageViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EEA5285D934B00AF1A41 /* PageViewControllerDelegate.swift */; };
+		C333EEDA285D934B00AF1A41 /* PagingViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EEA6285D934B00AF1A41 /* PagingViewControllerDataSource.swift */; };
+		C333EEDB285D934B00AF1A41 /* PagingMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EEA7285D934B00AF1A41 /* PagingMenuDelegate.swift */; };
+		C333EEDC285D934B00AF1A41 /* PagingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333EEA8285D934B00AF1A41 /* PagingLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -207,28 +198,9 @@
 		3E2AAD1F1CA81EA20044AAA5 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		3E2AAD231CA823DA0044AAA5 /* CalendarPagingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarPagingCell.swift; sourceTree = "<group>"; };
 		3E2AAD251CA828060044AAA5 /* DateFormatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatters.swift; sourceTree = "<group>"; };
-		3E2AAD271CA831AB0044AAA5 /* UIView+constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+constraints.swift"; sourceTree = "<group>"; };
-		3E2AAD2B1CA869B50044AAA5 /* PagingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingItem.swift; sourceTree = "<group>"; };
-		3E2AAD2D1CA86A320044AAA5 /* PagingViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingViewControllerDelegate.swift; sourceTree = "<group>"; };
-		3E4090961C88BCC900800E22 /* PagingDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingDirection.swift; sourceTree = "<group>"; };
-		3E4090981C88BCC900800E22 /* PagingOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingOptions.swift; sourceTree = "<group>"; };
-		3E4090991C88BCC900800E22 /* PagingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingState.swift; sourceTree = "<group>"; };
-		3E4090A11C88BD0A00800E22 /* PagingIndicatorMetric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingIndicatorMetric.swift; sourceTree = "<group>"; };
-		3E4090A91C88BDD100800E22 /* PagingBorderLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingBorderLayoutAttributes.swift; sourceTree = "<group>"; };
-		3E4090AA1C88BDD100800E22 /* PagingCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingCollectionViewLayout.swift; sourceTree = "<group>"; };
-		3E4090AC1C88BDD100800E22 /* PagingIndicatorLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingIndicatorLayoutAttributes.swift; sourceTree = "<group>"; };
-		3E4189201C9573FA001E0284 /* PagingViewControllerInfiniteDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingViewControllerInfiniteDataSource.swift; sourceTree = "<group>"; };
-		3E4283FB1C99CF9000032D95 /* PagingItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingItems.swift; sourceTree = "<group>"; };
 		3E49C71D1C8F5ABD006269DD /* Parchment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parchment.h; sourceTree = "<group>"; };
-		3E49C71F1C8F5C13006269DD /* PagingBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingBorderView.swift; sourceTree = "<group>"; };
-		3E49C7201C8F5C13006269DD /* PagingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingCell.swift; sourceTree = "<group>"; };
-		3E49C7221C8F5C13006269DD /* PagingIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingIndicatorView.swift; sourceTree = "<group>"; };
-		3E49C7231C8F5C13006269DD /* PagingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingView.swift; sourceTree = "<group>"; };
-		3E49C7241C8F5C13006269DD /* PagingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingViewController.swift; sourceTree = "<group>"; };
-		3E49C72D1C8F5CCE006269DD /* PagingCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingCellViewModel.swift; sourceTree = "<group>"; };
 		3E504EC41C7465B000AE1CE3 /* ParchmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParchmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E504EC81C7465B000AE1CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E562ACD1CE7CD8C007623B3 /* PagingTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingTitleCell.swift; sourceTree = "<group>"; };
 		3E5E93E21CE7D899000762A1 /* PagingStateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingStateTests.swift; sourceTree = "<group>"; };
 		3E5E93E81CE7E093000762A1 /* PagingDataStructureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingDataStructureTests.swift; sourceTree = "<group>"; };
 		3E5E93F41CE8BA1E000762A1 /* UnsplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashViewController.swift; sourceTree = "<group>"; };
@@ -245,24 +217,11 @@
 		3EA04A681C53BFF40054E5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EC0184C1C95F993005421AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		3EFEFBF61C80B8820023C949 /* PagingIndicatorLayoutAttributesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingIndicatorLayoutAttributesTests.swift; sourceTree = "<group>"; };
-		950ABE412437BD4D00CAD458 /* PagingNavigationOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingNavigationOrientation.swift; sourceTree = "<group>"; };
 		950ABE442438975300CAD458 /* PageViewExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewExampleViewController.swift; sourceTree = "<group>"; };
-		952D802E1E37CC09003DCB18 /* PagingTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingTransition.swift; sourceTree = "<group>"; };
 		953B8D342416C3DC0047BBA1 /* SelfSizingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingViewController.swift; sourceTree = "<group>"; };
-		954842581F42438E0072038C /* PagingInvalidationContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingInvalidationContext.swift; sourceTree = "<group>"; };
-		9548425C1F42486B0072038C /* PagingDiff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingDiff.swift; sourceTree = "<group>"; };
 		954842601F4251F90072038C /* PagingViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingViewControllerTests.swift; sourceTree = "<group>"; };
 		954842621F4252070072038C /* PagingDiffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingDiffTests.swift; sourceTree = "<group>"; };
 		954E7DEB1F48AE1300342ECF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		955444B01FC99E2C001EC26B /* PagingSizeCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingSizeCache.swift; sourceTree = "<group>"; };
-		955444B71FC9CCA6001EC26B /* PagingMenuItemSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuItemSize.swift; sourceTree = "<group>"; };
-		955444B91FC9CCBF001EC26B /* PagingIndicatorOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingIndicatorOptions.swift; sourceTree = "<group>"; };
-		955444BB1FC9CCD9001EC26B /* PagingBorderOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingBorderOptions.swift; sourceTree = "<group>"; };
-		955444BD1FC9CCEC001EC26B /* PagingSelectedScrollPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingSelectedScrollPosition.swift; sourceTree = "<group>"; };
-		955444BF1FC9CCFF001EC26B /* PagingMenuHorizontalAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuHorizontalAlignment.swift; sourceTree = "<group>"; };
-		955444C11FC9CD19001EC26B /* PagingMenuTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuTransition.swift; sourceTree = "<group>"; };
-		955444C31FC9CD2C001EC26B /* PagingMenuInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuInteraction.swift; sourceTree = "<group>"; };
-		955453C32413C80F00923BC8 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		955453C52413D76C00923BC8 /* ExamplesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesViewController.swift; sourceTree = "<group>"; };
 		955453C72413DB7900923BC8 /* UIView+constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+constraints.swift"; sourceTree = "<group>"; };
 		955453CE2413DC6900923BC8 /* UIColor+interpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+interpolation.swift"; sourceTree = "<group>"; };
@@ -274,33 +233,17 @@
 		9555593420E4F82500D3971A /* LargeTitlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTitlesViewController.swift; sourceTree = "<group>"; };
 		9555594820E4FB3F00D3971A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		95591F20222C3A0400677B4B /* PagingControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingControllerTests.swift; sourceTree = "<group>"; };
-		95591F22222C522800677B4B /* PagingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingController.swift; sourceTree = "<group>"; };
 		955D02432434E56900416E71 /* PagingViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingViewTests.swift; sourceTree = "<group>"; };
 		9566F55E257982B500CCA8FC /* UIColorInterpolationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorInterpolationTests.swift; sourceTree = "<group>"; };
 		9566F566257983B200CCA8FC /* Resources.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources.xcassets; sourceTree = "<group>"; };
-		9568922A222C525C00AFF250 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 		956EBE5D248BC426003ED4BA /* PagingCollectionViewLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingCollectionViewLayoutTests.swift; sourceTree = "<group>"; };
 		9575BEB22461FEF9002403F6 /* CreateDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDistance.swift; sourceTree = "<group>"; };
 		9575BEB42462034B002403F6 /* PagingDistanceRightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingDistanceRightTests.swift; sourceTree = "<group>"; };
 		9575BEB62463490B002403F6 /* PagingDistanceCenteredTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingDistanceCenteredTests.swift; sourceTree = "<group>"; };
-		957F14081E35583500E562F8 /* PagingCellLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingCellLayoutAttributes.swift; sourceTree = "<group>"; };
-		95868C2B2003DA87004B392B /* PagingContentInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingContentInteraction.swift; sourceTree = "<group>"; };
-		95868C31200412D8004B392B /* InvalidationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvalidationState.swift; sourceTree = "<group>"; };
-		95868C33200412DE004B392B /* Tween.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tween.swift; sourceTree = "<group>"; };
-		9597F2941E3903F4003FD289 /* UIColor+interpolation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+interpolation.swift"; sourceTree = "<group>"; };
 		9597F2A01E394482003FD289 /* IconsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsViewController.swift; sourceTree = "<group>"; };
 		9597F2AE1E3948C1003FD289 /* IconViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconViewController.swift; sourceTree = "<group>"; };
 		9597F2B41E394A21003FD289 /* IconPagingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconPagingCell.swift; sourceTree = "<group>"; };
-		95A0AEFF1FF707910043B90A /* PagingIndexItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingIndexItem.swift; sourceTree = "<group>"; };
-		95A52A141FF81F70002A2ED4 /* PagingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingLayout.swift; sourceTree = "<group>"; };
-		95A84B0420E586FA0031520F /* PagingStaticDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingStaticDataSource.swift; sourceTree = "<group>"; };
-		95A84B0C20ED46920031520F /* AnyPagingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyPagingItem.swift; sourceTree = "<group>"; };
 		95AD07EA2438F71A002F1D12 /* PagingDistanceLeftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingDistanceLeftTests.swift; sourceTree = "<group>"; };
-		95B301161E59FCD500B95D02 /* UIEdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIEdgeInsets.swift; sourceTree = "<group>"; };
-		95D2AE35242BB22F00AC3D46 /* PageViewDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewDirection.swift; sourceTree = "<group>"; };
-		95D2AE37242BB24800AC3D46 /* PageViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewState.swift; sourceTree = "<group>"; };
-		95D2AE39242BB25F00AC3D46 /* PageViewManagerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewManagerDataSource.swift; sourceTree = "<group>"; };
-		95D2AE3B242BB28C00AC3D46 /* PageViewManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewManagerDelegate.swift; sourceTree = "<group>"; };
 		95D2AE41242BC1F900AC3D46 /* ParchmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParchmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D2AE43242BC1FA00AC3D46 /* ParchmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParchmentUITests.swift; sourceTree = "<group>"; };
 		95D2AE45242BC1FA00AC3D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -311,31 +254,70 @@
 		95D2AE5A242BCC9900AC3D46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95D2AE5D242BCC9900AC3D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95D2AE5F242BCC9900AC3D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95D2AE69242BF58500AC3D46 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
-		95D2AE6E242EA3EF00AC3D46 /* PageViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewControllerDelegate.swift; sourceTree = "<group>"; };
-		95D2AE70242EA40A00AC3D46 /* PageViewControllerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewControllerDataSource.swift; sourceTree = "<group>"; };
 		95D78FDA2287138F00E6EE7C /* MockCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCollectionView.swift; sourceTree = "<group>"; };
 		95D78FDC228713B800E6EE7C /* MockCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCollectionViewLayout.swift; sourceTree = "<group>"; };
 		95D78FDE228715C800E6EE7C /* MockPagingControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPagingControllerDelegate.swift; sourceTree = "<group>"; };
 		95D78FE0228715E100E6EE7C /* MockPagingControllerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPagingControllerDataSource.swift; sourceTree = "<group>"; };
 		95D78FE222871AB800E6EE7C /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
 		95D78FEB2288343F00E6EE7C /* MockPagingControllerSizeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPagingControllerSizeDelegate.swift; sourceTree = "<group>"; };
-		95D7900F2299CE6100E6EE7C /* PagingViewControllerSizeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingViewControllerSizeDelegate.swift; sourceTree = "<group>"; };
-		95D790132299D28A00E6EE7C /* PagingMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingMenuView.swift; sourceTree = "<group>"; };
-		95D790152299D56300E6EE7C /* PagingMenuDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuDataSource.swift; sourceTree = "<group>"; };
-		95D790172299D57A00E6EE7C /* PagingMenuDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuDelegate.swift; sourceTree = "<group>"; };
-		95E4BA6F1FF15E84008871A3 /* PagingViewControllerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingViewControllerDataSource.swift; sourceTree = "<group>"; };
-		95E4BA711FF15EFE008871A3 /* PagingFiniteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingFiniteDataSource.swift; sourceTree = "<group>"; };
 		95F83D6326237D2B003B728F /* SelectedIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedIndexView.swift; sourceTree = "<group>"; };
 		95F83D6B26237DA4003B728F /* LifecycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleView.swift; sourceTree = "<group>"; };
 		95F83D822623804F003B728F /* ChangeItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeItems.swift; sourceTree = "<group>"; };
-		95FE3AF81FFEDBCE00E6F2AD /* PagingDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingDistance.swift; sourceTree = "<group>"; };
 		95FEEA4424215FCA009B5B64 /* PageViewManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewManagerTests.swift; sourceTree = "<group>"; };
 		95FEEA4C2423C44A009B5B64 /* MockPageViewManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPageViewManagerDelegate.swift; sourceTree = "<group>"; };
-		95FEEA4E2423F213009B5B64 /* PageViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewManager.swift; sourceTree = "<group>"; };
 		95FEEA502423F752009B5B64 /* MockPageViewManagerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPageViewManagerDataSource.swift; sourceTree = "<group>"; };
-		E8CB720923D70E1400A9B089 /* PagingMenuPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuPosition.swift; sourceTree = "<group>"; };
-		E9D1BE1D211E409400E86B72 /* PagingMenuItemSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuItemSource.swift; sourceTree = "<group>"; };
+		C333EE71285D934B00AF1A41 /* PageViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewManager.swift; sourceTree = "<group>"; };
+		C333EE72285D934B00AF1A41 /* PagingTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingTitleCell.swift; sourceTree = "<group>"; };
+		C333EE73285D934B00AF1A41 /* PagingIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingIndicatorView.swift; sourceTree = "<group>"; };
+		C333EE74285D934B00AF1A41 /* PagingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingView.swift; sourceTree = "<group>"; };
+		C333EE75285D934B00AF1A41 /* PagingCellLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingCellLayoutAttributes.swift; sourceTree = "<group>"; };
+		C333EE76285D934B00AF1A41 /* PagingIndicatorLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingIndicatorLayoutAttributes.swift; sourceTree = "<group>"; };
+		C333EE77285D934B00AF1A41 /* PagingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingController.swift; sourceTree = "<group>"; };
+		C333EE78285D934B00AF1A41 /* PagingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingCell.swift; sourceTree = "<group>"; };
+		C333EE79285D934B00AF1A41 /* PagingStaticDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingStaticDataSource.swift; sourceTree = "<group>"; };
+		C333EE7A285D934B00AF1A41 /* PagingInvalidationContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingInvalidationContext.swift; sourceTree = "<group>"; };
+		C333EE7B285D934B00AF1A41 /* PagingSizeCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingSizeCache.swift; sourceTree = "<group>"; };
+		C333EE7C285D934B00AF1A41 /* YDSTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YDSTabBarViewController.swift; sourceTree = "<group>"; };
+		C333EE7D285D934B00AF1A41 /* PagingCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingCollectionViewLayout.swift; sourceTree = "<group>"; };
+		C333EE7E285D934B00AF1A41 /* PagingOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingOptions.swift; sourceTree = "<group>"; };
+		C333EE7F285D934B00AF1A41 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		C333EE80285D934B00AF1A41 /* PagingFiniteDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingFiniteDataSource.swift; sourceTree = "<group>"; };
+		C333EE81285D934B00AF1A41 /* PagingMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingMenuView.swift; sourceTree = "<group>"; };
+		C333EE83285D934B00AF1A41 /* PagingDistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingDistance.swift; sourceTree = "<group>"; };
+		C333EE84285D934B00AF1A41 /* PagingIndicatorMetric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingIndicatorMetric.swift; sourceTree = "<group>"; };
+		C333EE85285D934B00AF1A41 /* PagingDiff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingDiff.swift; sourceTree = "<group>"; };
+		C333EE86285D934B00AF1A41 /* PagingItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingItems.swift; sourceTree = "<group>"; };
+		C333EE87285D934B00AF1A41 /* PagingCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingCellViewModel.swift; sourceTree = "<group>"; };
+		C333EE88285D934B00AF1A41 /* AnyPagingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyPagingItem.swift; sourceTree = "<group>"; };
+		C333EE89285D934B00AF1A41 /* PagingTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingTransition.swift; sourceTree = "<group>"; };
+		C333EE8A285D934B00AF1A41 /* PagingIndexItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingIndexItem.swift; sourceTree = "<group>"; };
+		C333EE8C285D934B00AF1A41 /* UIColor+interpolation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+interpolation.swift"; sourceTree = "<group>"; };
+		C333EE8D285D934B00AF1A41 /* UIView+constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+constraints.swift"; sourceTree = "<group>"; };
+		C333EE8E285D934B00AF1A41 /* UIEdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIEdgeInsets.swift; sourceTree = "<group>"; };
+		C333EE90285D934B00AF1A41 /* PageViewDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewDirection.swift; sourceTree = "<group>"; };
+		C333EE91285D934B00AF1A41 /* PagingMenuInteraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingMenuInteraction.swift; sourceTree = "<group>"; };
+		C333EE92285D934B00AF1A41 /* PagingMenuItemSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingMenuItemSize.swift; sourceTree = "<group>"; };
+		C333EE93285D934B00AF1A41 /* InvalidationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvalidationState.swift; sourceTree = "<group>"; };
+		C333EE94285D934B00AF1A41 /* PageViewState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewState.swift; sourceTree = "<group>"; };
+		C333EE95285D934B00AF1A41 /* PagingIndicatorOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingIndicatorOptions.swift; sourceTree = "<group>"; };
+		C333EE96285D934B00AF1A41 /* PagingDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingDirection.swift; sourceTree = "<group>"; };
+		C333EE97285D934B00AF1A41 /* PagingBorderOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingBorderOptions.swift; sourceTree = "<group>"; };
+		C333EE98285D934B00AF1A41 /* PagingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingState.swift; sourceTree = "<group>"; };
+		C333EE99285D934B00AF1A41 /* PagingMenuItemSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingMenuItemSource.swift; sourceTree = "<group>"; };
+		C333EE9B285D934B00AF1A41 /* PagingMenuDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingMenuDataSource.swift; sourceTree = "<group>"; };
+		C333EE9C285D934B00AF1A41 /* PagingViewControllerInfiniteDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingViewControllerInfiniteDataSource.swift; sourceTree = "<group>"; };
+		C333EE9D285D934B00AF1A41 /* Tween.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tween.swift; sourceTree = "<group>"; };
+		C333EE9E285D934B00AF1A41 /* PagingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingItem.swift; sourceTree = "<group>"; };
+		C333EE9F285D934B00AF1A41 /* PageViewControllerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewControllerDataSource.swift; sourceTree = "<group>"; };
+		C333EEA0285D934B00AF1A41 /* CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		C333EEA1285D934B00AF1A41 /* PageViewManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewManagerDelegate.swift; sourceTree = "<group>"; };
+		C333EEA2285D934B00AF1A41 /* PageViewManagerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewManagerDataSource.swift; sourceTree = "<group>"; };
+		C333EEA3285D934B00AF1A41 /* PagingViewControllerSizeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingViewControllerSizeDelegate.swift; sourceTree = "<group>"; };
+		C333EEA4285D934B00AF1A41 /* PagingViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingViewControllerDelegate.swift; sourceTree = "<group>"; };
+		C333EEA5285D934B00AF1A41 /* PageViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewControllerDelegate.swift; sourceTree = "<group>"; };
+		C333EEA6285D934B00AF1A41 /* PagingViewControllerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingViewControllerDataSource.swift; sourceTree = "<group>"; };
+		C333EEA7285D934B00AF1A41 /* PagingMenuDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingMenuDelegate.swift; sourceTree = "<group>"; };
+		C333EEA8285D934B00AF1A41 /* PagingLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -380,71 +362,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E4090951C88BC9100800E22 /* Enums */ = {
-			isa = PBXGroup;
-			children = (
-				95868C31200412D8004B392B /* InvalidationState.swift */,
-				95D2AE35242BB22F00AC3D46 /* PageViewDirection.swift */,
-				95D2AE37242BB24800AC3D46 /* PageViewState.swift */,
-				955444BB1FC9CCD9001EC26B /* PagingBorderOptions.swift */,
-				95868C2B2003DA87004B392B /* PagingContentInteraction.swift */,
-				3E4090961C88BCC900800E22 /* PagingDirection.swift */,
-				955444B91FC9CCBF001EC26B /* PagingIndicatorOptions.swift */,
-				955444BF1FC9CCFF001EC26B /* PagingMenuHorizontalAlignment.swift */,
-				955444C31FC9CD2C001EC26B /* PagingMenuInteraction.swift */,
-				955444B71FC9CCA6001EC26B /* PagingMenuItemSize.swift */,
-				E9D1BE1D211E409400E86B72 /* PagingMenuItemSource.swift */,
-				E8CB720923D70E1400A9B089 /* PagingMenuPosition.swift */,
-				955444C11FC9CD19001EC26B /* PagingMenuTransition.swift */,
-				955444BD1FC9CCEC001EC26B /* PagingSelectedScrollPosition.swift */,
-				3E4090991C88BCC900800E22 /* PagingState.swift */,
-			);
-			path = Enums;
-			sourceTree = "<group>";
-		};
-		3E4090A01C88BCF000800E22 /* Structs */ = {
-			isa = PBXGroup;
-			children = (
-				95A84B0C20ED46920031520F /* AnyPagingItem.swift */,
-				95D2AE69242BF58500AC3D46 /* PageView.swift */,
-				3E49C72D1C8F5CCE006269DD /* PagingCellViewModel.swift */,
-				9548425C1F42486B0072038C /* PagingDiff.swift */,
-				95FE3AF81FFEDBCE00E6F2AD /* PagingDistance.swift */,
-				95A0AEFF1FF707910043B90A /* PagingIndexItem.swift */,
-				3E4090A11C88BD0A00800E22 /* PagingIndicatorMetric.swift */,
-				3E4283FB1C99CF9000032D95 /* PagingItems.swift */,
-				952D802E1E37CC09003DCB18 /* PagingTransition.swift */,
-				950ABE412437BD4D00CAD458 /* PagingNavigationOrientation.swift */,
-			);
-			path = Structs;
-			sourceTree = "<group>";
-		};
-		3E4090A31C88BD1700800E22 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				3E4090A91C88BDD100800E22 /* PagingBorderLayoutAttributes.swift */,
-				3E49C71F1C8F5C13006269DD /* PagingBorderView.swift */,
-				3E49C7201C8F5C13006269DD /* PagingCell.swift */,
-				957F14081E35583500E562F8 /* PagingCellLayoutAttributes.swift */,
-				3E4090AA1C88BDD100800E22 /* PagingCollectionViewLayout.swift */,
-				95591F22222C522800677B4B /* PagingController.swift */,
-				95E4BA711FF15EFE008871A3 /* PagingFiniteDataSource.swift */,
-				3E4090AC1C88BDD100800E22 /* PagingIndicatorLayoutAttributes.swift */,
-				3E49C7221C8F5C13006269DD /* PagingIndicatorView.swift */,
-				954842581F42438E0072038C /* PagingInvalidationContext.swift */,
-				95D790132299D28A00E6EE7C /* PagingMenuView.swift */,
-				3E4090981C88BCC900800E22 /* PagingOptions.swift */,
-				955444B01FC99E2C001EC26B /* PagingSizeCache.swift */,
-				95A84B0420E586FA0031520F /* PagingStaticDataSource.swift */,
-				3E562ACD1CE7CD8C007623B3 /* PagingTitleCell.swift */,
-				3E49C7231C8F5C13006269DD /* PagingView.swift */,
-				3E49C7241C8F5C13006269DD /* PagingViewController.swift */,
-				955453C32413C80F00923BC8 /* PageViewController.swift */,
-				95FEEA4E2423F213009B5B64 /* PageViewManager.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		3E504EC51C7465B000AE1CE3 /* ParchmentTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -498,13 +415,13 @@
 		3EA04A4D1C53BFE40054E5E0 /* Parchment */ = {
 			isa = PBXGroup;
 			children = (
+				C333EE70285D934B00AF1A41 /* Classes */,
+				C333EE8F285D934B00AF1A41 /* Enums */,
+				C333EE8B285D934B00AF1A41 /* Extensions */,
+				C333EE9A285D934B00AF1A41 /* Protocols */,
+				C333EE82285D934B00AF1A41 /* Structs */,
 				3E49C71D1C8F5ABD006269DD /* Parchment.h */,
 				3EC0184C1C95F993005421AD /* Info.plist */,
-				3E4090A31C88BD1700800E22 /* Classes */,
-				3E4090951C88BC9100800E22 /* Enums */,
-				3EA04A701C53C0640054E5E0 /* Extensions */,
-				3EA04A711C53C0760054E5E0 /* Protocols */,
-				3E4090A01C88BCF000800E22 /* Structs */,
 			);
 			path = Parchment;
 			sourceTree = "<group>";
@@ -518,37 +435,6 @@
 				955453CA2413DBCE00923BC8 /* Resources */,
 			);
 			path = Example;
-			sourceTree = "<group>";
-		};
-		3EA04A701C53C0640054E5E0 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				3E2AAD271CA831AB0044AAA5 /* UIView+constraints.swift */,
-				9597F2941E3903F4003FD289 /* UIColor+interpolation.swift */,
-				95B301161E59FCD500B95D02 /* UIEdgeInsets.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		3EA04A711C53C0760054E5E0 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				9568922A222C525C00AFF250 /* CollectionView.swift */,
-				95D2AE70242EA40A00AC3D46 /* PageViewControllerDataSource.swift */,
-				95D2AE6E242EA3EF00AC3D46 /* PageViewControllerDelegate.swift */,
-				95D2AE39242BB25F00AC3D46 /* PageViewManagerDataSource.swift */,
-				95D2AE3B242BB28C00AC3D46 /* PageViewManagerDelegate.swift */,
-				3E2AAD2B1CA869B50044AAA5 /* PagingItem.swift */,
-				95A52A141FF81F70002A2ED4 /* PagingLayout.swift */,
-				95D790152299D56300E6EE7C /* PagingMenuDataSource.swift */,
-				95D790172299D57A00E6EE7C /* PagingMenuDelegate.swift */,
-				95E4BA6F1FF15E84008871A3 /* PagingViewControllerDataSource.swift */,
-				3E2AAD2D1CA86A320044AAA5 /* PagingViewControllerDelegate.swift */,
-				3E4189201C9573FA001E0284 /* PagingViewControllerInfiniteDataSource.swift */,
-				95D7900F2299CE6100E6EE7C /* PagingViewControllerSizeDelegate.swift */,
-				95868C33200412DE004B392B /* Tween.swift */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		950ABE432438972400CAD458 /* PageViewController */ = {
@@ -758,6 +644,93 @@
 				95FEEA502423F752009B5B64 /* MockPageViewManagerDataSource.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		C333EE70285D934B00AF1A41 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C333EE71285D934B00AF1A41 /* PageViewManager.swift */,
+				C333EE72285D934B00AF1A41 /* PagingTitleCell.swift */,
+				C333EE73285D934B00AF1A41 /* PagingIndicatorView.swift */,
+				C333EE74285D934B00AF1A41 /* PagingView.swift */,
+				C333EE75285D934B00AF1A41 /* PagingCellLayoutAttributes.swift */,
+				C333EE76285D934B00AF1A41 /* PagingIndicatorLayoutAttributes.swift */,
+				C333EE77285D934B00AF1A41 /* PagingController.swift */,
+				C333EE78285D934B00AF1A41 /* PagingCell.swift */,
+				C333EE79285D934B00AF1A41 /* PagingStaticDataSource.swift */,
+				C333EE7A285D934B00AF1A41 /* PagingInvalidationContext.swift */,
+				C333EE7B285D934B00AF1A41 /* PagingSizeCache.swift */,
+				C333EE7C285D934B00AF1A41 /* YDSTabBarViewController.swift */,
+				C333EE7D285D934B00AF1A41 /* PagingCollectionViewLayout.swift */,
+				C333EE7E285D934B00AF1A41 /* PagingOptions.swift */,
+				C333EE7F285D934B00AF1A41 /* PageViewController.swift */,
+				C333EE80285D934B00AF1A41 /* PagingFiniteDataSource.swift */,
+				C333EE81285D934B00AF1A41 /* PagingMenuView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C333EE82285D934B00AF1A41 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				C333EE83285D934B00AF1A41 /* PagingDistance.swift */,
+				C333EE84285D934B00AF1A41 /* PagingIndicatorMetric.swift */,
+				C333EE85285D934B00AF1A41 /* PagingDiff.swift */,
+				C333EE86285D934B00AF1A41 /* PagingItems.swift */,
+				C333EE87285D934B00AF1A41 /* PagingCellViewModel.swift */,
+				C333EE88285D934B00AF1A41 /* AnyPagingItem.swift */,
+				C333EE89285D934B00AF1A41 /* PagingTransition.swift */,
+				C333EE8A285D934B00AF1A41 /* PagingIndexItem.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		C333EE8B285D934B00AF1A41 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C333EE8C285D934B00AF1A41 /* UIColor+interpolation.swift */,
+				C333EE8D285D934B00AF1A41 /* UIView+constraints.swift */,
+				C333EE8E285D934B00AF1A41 /* UIEdgeInsets.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C333EE8F285D934B00AF1A41 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				C333EE90285D934B00AF1A41 /* PageViewDirection.swift */,
+				C333EE91285D934B00AF1A41 /* PagingMenuInteraction.swift */,
+				C333EE92285D934B00AF1A41 /* PagingMenuItemSize.swift */,
+				C333EE93285D934B00AF1A41 /* InvalidationState.swift */,
+				C333EE94285D934B00AF1A41 /* PageViewState.swift */,
+				C333EE95285D934B00AF1A41 /* PagingIndicatorOptions.swift */,
+				C333EE96285D934B00AF1A41 /* PagingDirection.swift */,
+				C333EE97285D934B00AF1A41 /* PagingBorderOptions.swift */,
+				C333EE98285D934B00AF1A41 /* PagingState.swift */,
+				C333EE99285D934B00AF1A41 /* PagingMenuItemSource.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		C333EE9A285D934B00AF1A41 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C333EE9B285D934B00AF1A41 /* PagingMenuDataSource.swift */,
+				C333EE9C285D934B00AF1A41 /* PagingViewControllerInfiniteDataSource.swift */,
+				C333EE9D285D934B00AF1A41 /* Tween.swift */,
+				C333EE9E285D934B00AF1A41 /* PagingItem.swift */,
+				C333EE9F285D934B00AF1A41 /* PageViewControllerDataSource.swift */,
+				C333EEA0285D934B00AF1A41 /* CollectionView.swift */,
+				C333EEA1285D934B00AF1A41 /* PageViewManagerDelegate.swift */,
+				C333EEA2285D934B00AF1A41 /* PageViewManagerDataSource.swift */,
+				C333EEA3285D934B00AF1A41 /* PagingViewControllerSizeDelegate.swift */,
+				C333EEA4285D934B00AF1A41 /* PagingViewControllerDelegate.swift */,
+				C333EEA5285D934B00AF1A41 /* PageViewControllerDelegate.swift */,
+				C333EEA6285D934B00AF1A41 /* PagingViewControllerDataSource.swift */,
+				C333EEA7285D934B00AF1A41 /* PagingMenuDelegate.swift */,
+				C333EEA8285D934B00AF1A41 /* PagingLayout.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1007,67 +980,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95D2AE6A242BF58500AC3D46 /* PageView.swift in Sources */,
-				95868C34200412DE004B392B /* Tween.swift in Sources */,
-				95A52A151FF81F70002A2ED4 /* PagingLayout.swift in Sources */,
-				95D2AE3A242BB25F00AC3D46 /* PageViewManagerDataSource.swift in Sources */,
-				955444C21FC9CD19001EC26B /* PagingMenuTransition.swift in Sources */,
-				95FEEA4F2423F213009B5B64 /* PageViewManager.swift in Sources */,
-				3E2AAD2E1CA86A320044AAA5 /* PagingViewControllerDelegate.swift in Sources */,
-				9548425D1F42486B0072038C /* PagingDiff.swift in Sources */,
-				3E40909D1C88BCC900800E22 /* PagingState.swift in Sources */,
-				954842591F42438E0072038C /* PagingInvalidationContext.swift in Sources */,
-				9597F2951E3903F4003FD289 /* UIColor+interpolation.swift in Sources */,
-				95A0AF001FF707910043B90A /* PagingIndexItem.swift in Sources */,
-				3E49C72A1C8F5C13006269DD /* PagingViewController.swift in Sources */,
-				950ABE422437BD4D00CAD458 /* PagingNavigationOrientation.swift in Sources */,
-				95A84B0D20ED46920031520F /* AnyPagingItem.swift in Sources */,
-				95D790102299CE6100E6EE7C /* PagingViewControllerSizeDelegate.swift in Sources */,
-				95E4BA701FF15E84008871A3 /* PagingViewControllerDataSource.swift in Sources */,
-				957F14091E35583500E562F8 /* PagingCellLayoutAttributes.swift in Sources */,
-				9568922B222C525C00AFF250 /* CollectionView.swift in Sources */,
-				3E2AAD281CA831AB0044AAA5 /* UIView+constraints.swift in Sources */,
-				95D2AE6F242EA3EF00AC3D46 /* PageViewControllerDelegate.swift in Sources */,
-				95A84B0520E586FA0031520F /* PagingStaticDataSource.swift in Sources */,
-				3E49C7251C8F5C13006269DD /* PagingBorderView.swift in Sources */,
-				E8CB720A23D70E1400A9B089 /* PagingMenuPosition.swift in Sources */,
-				95E4BA721FF15EFE008871A3 /* PagingFiniteDataSource.swift in Sources */,
-				3E40909A1C88BCC900800E22 /* PagingDirection.swift in Sources */,
-				3E49C7291C8F5C13006269DD /* PagingView.swift in Sources */,
-				3E4090AF1C88BDD100800E22 /* PagingCollectionViewLayout.swift in Sources */,
-				95591F23222C522800677B4B /* PagingController.swift in Sources */,
-				955453C42413C80F00923BC8 /* PageViewController.swift in Sources */,
-				3E4090A21C88BD0A00800E22 /* PagingIndicatorMetric.swift in Sources */,
-				95D2AE71242EA40A00AC3D46 /* PageViewControllerDataSource.swift in Sources */,
-				955444BE1FC9CCEC001EC26B /* PagingSelectedScrollPosition.swift in Sources */,
-				3E4189211C9573FA001E0284 /* PagingViewControllerInfiniteDataSource.swift in Sources */,
-				95868C32200412D8004B392B /* InvalidationState.swift in Sources */,
-				3E2AAD2C1CA869B50044AAA5 /* PagingItem.swift in Sources */,
-				3E40909C1C88BCC900800E22 /* PagingOptions.swift in Sources */,
-				95D2AE3C242BB28C00AC3D46 /* PageViewManagerDelegate.swift in Sources */,
-				3E4090B11C88BDD100800E22 /* PagingIndicatorLayoutAttributes.swift in Sources */,
-				955444C41FC9CD2C001EC26B /* PagingMenuInteraction.swift in Sources */,
-				95D790142299D28A00E6EE7C /* PagingMenuView.swift in Sources */,
-				95F5660F2128707900F2A75E /* PagingMenuItemSource.swift in Sources */,
-				952D802F1E37CC09003DCB18 /* PagingTransition.swift in Sources */,
-				955444BC1FC9CCD9001EC26B /* PagingBorderOptions.swift in Sources */,
-				3E4090AE1C88BDD100800E22 /* PagingBorderLayoutAttributes.swift in Sources */,
-				955444B11FC99E2C001EC26B /* PagingSizeCache.swift in Sources */,
-				3E4283FC1C99CF9000032D95 /* PagingItems.swift in Sources */,
-				3E49C7281C8F5C13006269DD /* PagingIndicatorView.swift in Sources */,
-				95D2AE36242BB22F00AC3D46 /* PageViewDirection.swift in Sources */,
-				95B301171E59FCD500B95D02 /* UIEdgeInsets.swift in Sources */,
-				955444C01FC9CCFF001EC26B /* PagingMenuHorizontalAlignment.swift in Sources */,
-				3E49C7261C8F5C13006269DD /* PagingCell.swift in Sources */,
-				95D790162299D56300E6EE7C /* PagingMenuDataSource.swift in Sources */,
-				955444BA1FC9CCBF001EC26B /* PagingIndicatorOptions.swift in Sources */,
-				95D790182299D57A00E6EE7C /* PagingMenuDelegate.swift in Sources */,
-				3E49C72E1C8F5CCE006269DD /* PagingCellViewModel.swift in Sources */,
-				95868C2C2003DA87004B392B /* PagingContentInteraction.swift in Sources */,
-				955444B81FC9CCA6001EC26B /* PagingMenuItemSize.swift in Sources */,
-				3E562ACE1CE7CD8C007623B3 /* PagingTitleCell.swift in Sources */,
-				95FE3AF91FFEDBCE00E6F2AD /* PagingDistance.swift in Sources */,
-				95D2AE38242BB24800AC3D46 /* PageViewState.swift in Sources */,
+				C333EEBE285D934B00AF1A41 /* PagingCellViewModel.swift in Sources */,
+				C333EECB285D934B00AF1A41 /* PagingDirection.swift in Sources */,
+				C333EEAC285D934B00AF1A41 /* PagingView.swift in Sources */,
+				C333EECF285D934B00AF1A41 /* PagingMenuDataSource.swift in Sources */,
+				C333EEB0285D934B00AF1A41 /* PagingCell.swift in Sources */,
+				C333EED3285D934B00AF1A41 /* PageViewControllerDataSource.swift in Sources */,
+				C333EECD285D934B00AF1A41 /* PagingState.swift in Sources */,
+				C333EEBF285D934B00AF1A41 /* AnyPagingItem.swift in Sources */,
+				C333EEBB285D934B00AF1A41 /* PagingIndicatorMetric.swift in Sources */,
+				C333EED9285D934B00AF1A41 /* PageViewControllerDelegate.swift in Sources */,
+				C333EEC1285D934B00AF1A41 /* PagingIndexItem.swift in Sources */,
+				C333EEB3285D934B00AF1A41 /* PagingSizeCache.swift in Sources */,
+				C333EEB4285D934B00AF1A41 /* YDSTabBarViewController.swift in Sources */,
+				C333EEB6285D934B00AF1A41 /* PagingOptions.swift in Sources */,
+				C333EEC6285D934B00AF1A41 /* PagingMenuInteraction.swift in Sources */,
+				C333EECA285D934B00AF1A41 /* PagingIndicatorOptions.swift in Sources */,
+				C333EEAA285D934B00AF1A41 /* PagingTitleCell.swift in Sources */,
+				C333EEB7285D934B00AF1A41 /* PageViewController.swift in Sources */,
+				C333EED8285D934B00AF1A41 /* PagingViewControllerDelegate.swift in Sources */,
+				C333EEC0285D934B00AF1A41 /* PagingTransition.swift in Sources */,
+				C333EEB8285D934B00AF1A41 /* PagingFiniteDataSource.swift in Sources */,
+				C333EED5285D934B00AF1A41 /* PageViewManagerDelegate.swift in Sources */,
+				C333EECC285D934B00AF1A41 /* PagingBorderOptions.swift in Sources */,
+				C333EECE285D934B00AF1A41 /* PagingMenuItemSource.swift in Sources */,
+				C333EEBA285D934B00AF1A41 /* PagingDistance.swift in Sources */,
+				C333EEDA285D934B00AF1A41 /* PagingViewControllerDataSource.swift in Sources */,
+				C333EEB1285D934B00AF1A41 /* PagingStaticDataSource.swift in Sources */,
+				C333EEAE285D934B00AF1A41 /* PagingIndicatorLayoutAttributes.swift in Sources */,
+				C333EEBD285D934B00AF1A41 /* PagingItems.swift in Sources */,
+				C333EEB5285D934B00AF1A41 /* PagingCollectionViewLayout.swift in Sources */,
+				C333EEC7285D934B00AF1A41 /* PagingMenuItemSize.swift in Sources */,
+				C333EED6285D934B00AF1A41 /* PageViewManagerDataSource.swift in Sources */,
+				C333EED2285D934B00AF1A41 /* PagingItem.swift in Sources */,
+				C333EEC2285D934B00AF1A41 /* UIColor+interpolation.swift in Sources */,
+				C333EEC8285D934B00AF1A41 /* InvalidationState.swift in Sources */,
+				C333EEAF285D934B00AF1A41 /* PagingController.swift in Sources */,
+				C333EED1285D934B00AF1A41 /* Tween.swift in Sources */,
+				C333EED7285D934B00AF1A41 /* PagingViewControllerSizeDelegate.swift in Sources */,
+				C333EED0285D934B00AF1A41 /* PagingViewControllerInfiniteDataSource.swift in Sources */,
+				C333EEBC285D934B00AF1A41 /* PagingDiff.swift in Sources */,
+				C333EEAB285D934B00AF1A41 /* PagingIndicatorView.swift in Sources */,
+				C333EEC4285D934B00AF1A41 /* UIEdgeInsets.swift in Sources */,
+				C333EEAD285D934B00AF1A41 /* PagingCellLayoutAttributes.swift in Sources */,
+				C333EEA9285D934B00AF1A41 /* PageViewManager.swift in Sources */,
+				C333EEB9285D934B00AF1A41 /* PagingMenuView.swift in Sources */,
+				C333EEDC285D934B00AF1A41 /* PagingLayout.swift in Sources */,
+				C333EEDB285D934B00AF1A41 /* PagingMenuDelegate.swift in Sources */,
+				C333EEC3285D934B00AF1A41 /* UIView+constraints.swift in Sources */,
+				C333EEC5285D934B00AF1A41 /* PageViewDirection.swift in Sources */,
+				C333EEC9285D934B00AF1A41 /* PageViewState.swift in Sources */,
+				C333EED4285D934B00AF1A41 /* CollectionView.swift in Sources */,
+				C333EEB2285D934B00AF1A41 /* PagingInvalidationContext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1185,6 +1149,7 @@
 		3E504ECC1C7465B000AE1CE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ParchmentTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1198,6 +1163,7 @@
 		3E504ECD1C7465B000AE1CE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ParchmentTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1462,6 +1428,7 @@
 		95D2AE60242BCC9900AC3D46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1490,6 +1457,7 @@
 		95D2AE61242BCC9900AC3D46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
