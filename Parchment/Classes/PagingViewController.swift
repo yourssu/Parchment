@@ -257,9 +257,11 @@ public class PagingViewController:
         case .scrollable:
             options.menuItemSize = .fixed(width: 88, height: 48)
             options.menuInteraction = .scrolling
+            options.menuInsets = UIEdgeInsets(top: 0, left: 16, bottom: 0, right: 16)
         case .fixed:
             options.menuItemSize = .sizeToFit(minWidth: 1, height: 48)
             options.menuInteraction = .none
+            options.menuInsets = .zero
         }
         
         self.options = options
