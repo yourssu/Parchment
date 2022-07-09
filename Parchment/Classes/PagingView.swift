@@ -56,19 +56,10 @@ open class PagingView: UIView {
     /// Sets up all the layout constraints. Override this if you need to
     /// make changes to how the views are layed out.
     open func setupConstraints() {
-        switch options.type {
-        case .scrollable:
-            collectionView.snp.makeConstraints {
-                $0.leading.trailing.equalToSuperview().inset(16)
-                $0.top.equalTo(safeAreaLayoutGuide)
-                $0.height.equalTo(48)
-            }
-        case .fixed:
-            collectionView.snp.makeConstraints {
-                $0.leading.trailing.equalToSuperview()
-                $0.top.equalTo(safeAreaLayoutGuide)
-                $0.height.equalTo(48)
-            }
+        collectionView.snp.makeConstraints {
+            $0.leading.trailing.equalToSuperview()
+            $0.top.equalTo(safeAreaLayoutGuide)
+            $0.height.equalTo(48)
         }
         
         pageView.snp.makeConstraints {

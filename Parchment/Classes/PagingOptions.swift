@@ -84,15 +84,12 @@ public struct PagingOptions {
             return minWidth
         }
     }
-    
-    public var type: PagingViewController.TabBarType
 
     public init(font: UIFont = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.medium),
                 selectedFont: UIFont = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.medium),
                 textColor: UIColor = UIColor.black,
                 selectedTextColor: UIColor = UIColor(red: 3 / 255, green: 125 / 255, blue: 233 / 255, alpha: 1),
-                indicatorColor: UIColor = UIColor(red: 3 / 255, green: 125 / 255, blue: 233 / 255, alpha: 1),
-                type: PagingViewController.TabBarType = .fixed) {
+                indicatorColor: UIColor = UIColor(red: 3 / 255, green: 125 / 255, blue: 233 / 255, alpha: 1)) {
         menuItemSize = .sizeToFit(minWidth: 150, height: 40)
         menuInteraction = .scrolling
         menuInsets = UIEdgeInsets.zero
@@ -119,6 +116,5 @@ public struct PagingOptions {
         pagingContentBackgroundColor = .clear
         menuBackgroundColor = .systemBackground
         self.indicatorColor = indicatorColor
-        self.type = type
     }
 }
