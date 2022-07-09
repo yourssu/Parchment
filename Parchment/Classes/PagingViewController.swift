@@ -251,7 +251,8 @@ public class PagingViewController:
                                                    selectedFont: selectedFont,
                                                    textColor: textColor,
                                                    selectedTextColor: selectedTextColor,
-                                                   indicatorColor: indicatorColor)
+                                                   indicatorColor: indicatorColor,
+                                                   type: type)
         
         switch type {
         case .scrollable:
